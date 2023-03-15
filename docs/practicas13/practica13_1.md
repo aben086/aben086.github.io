@@ -79,6 +79,42 @@ __Ejemplo de un archivo `config`__.
     output = json
 
 # 1.4 Ejercicios
+## Estructura
+```txt
+├── Ejercicio01
+│   ├── scripts
+│   │   └── create_sg.sh
+│   └── variables
+│       └── vars.sh
+├── Ejercicio02
+│   ├── scripts
+│   │   └── run_instance.sh
+│   └── variables
+│       └── vars.sh
+├── Ejercicio03
+│   ├── scripts
+│   │   ├── eliminar_practica9.sh
+│   │   └── montar_practica9.sh
+│   └── variables
+│       └── vars.sh
+├── Ejercicio04
+│   ├── scripts
+│   │   ├── 00-terminate_all_instances.sh
+│   │   ├── 01-delete_all_security_groups.sh
+│   │   ├── 02-delete_all_elastic_ips.sh
+│   │   ├── 03-create_security_groups.sh
+│   │   ├── 04-create_instances.sh
+│   │   ├── 05-create_elastic_ip.sh
+│   │   └── user-data.sh
+│   └── variables
+│       └── vars.sh
+├── Ejercicio05
+│   └── scripts
+│       └── mostrar_info.sh
+├── img
+│   └── logo.png
+└── README.md
+```
 ## 1.4.1 Ejercicio 1
 * Crea un grupo de seguridad para las máquinas del Backend con el nombre backend-sg.
 * Añada las siguientes reglas al grupo de seguridad:
