@@ -1,10 +1,9 @@
 title: Aladin IAW
 description: Blog de Jekyll para las prácticas IAW
-theme: just-the-docs
-
 url: aben086.github.io
 logo: "/assets/images/logo.png"
-
+theme: just-the-docs
+favicon_ico: "/assets/images/favicon.png"
 # Enable or disable the site search
 # Supports true (default) or false
 search_enabled: true
